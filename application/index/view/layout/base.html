@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{block name="title"}网站标题{/block}</title>
+    <!-- ZUI 标准版压缩后的 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/zui/1.8.1/css/zui.min.css">
+</head>
+
+<body>
+    <div class="col-md-12">
+        <nav class="navbar  navbar-inverse color-blue" style="background-color: #3F6699" role="navigation">
+            <div class="container-fluid">
+                <!-- 导航头部 -->
+                <div class="navbar-header">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li>
+                            <a href="">1</a>
+                        </li>
+                        <li>
+                            <a href="">2</a>
+                        </li>
+                        <li>
+                            <a href="">3</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- 导航项目 -->
+                <div class="collapse navbar-collapse navbar-collapse-example">
+
+                    <!-- 右侧的导航项目 -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="">
+                                <i class="icon icon-comment-alt text-danger">1</i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="your/nice/url">帮助</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="your/nice/url" class="dropdown-toggle" data-toggle="dropdown">史蒂芬
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="your/nice/url">个人资料</a>
+                                </li>
+                                <li>
+                                    <a href="your/nice/url">修改密码</a>
+                                </li>
+                                <li>
+                                    <a href="your/nice/url">购买</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="your/nice/url">退出登陆</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <!-- END .navbar-collapse -->
+            </div>
+        </nav>
+    </div>
+    <div class="row">
+        <div class="container ">
+            <div class="row">
+                {block name="container"}{/block}
+            </div>
+        </div>
+    </div>
+
+    <!-- ZUI Javascript 依赖 jQuery -->
+    <script src="https://cdn.bootcss.com/zui/1.8.1/lib/jquery/jquery.js"></script>
+    <!-- ZUI 标准版压缩后的 JavaScript 文件 -->
+    <script src="https://cdn.bootcss.com/zui/1.8.1/js/zui.min.js"></script>
+</body>
+
+</html>
